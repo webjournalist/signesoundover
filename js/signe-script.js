@@ -19,7 +19,7 @@ $(document).ready(function(){ // begin document.ready block
 			
 		}, 
 		function() {
-           $(this).css({"border":"0px"}); // Edit CSS/style AFTER hover state here. I'd recommend it matching original state.
+           $(this).css({"border":"2px solid #FFFFFF"}); // Edit CSS/style AFTER hover state here. I'd recommend it matching original state.
            
  			$("#sound1").get(0).pause();          
         }
